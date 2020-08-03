@@ -16,14 +16,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jux-vF-TLO">
-                                <rect key="frame" x="324" y="391" width="42" height="21"/>
+                                <rect key="frame" x="289" y="391" width="77" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="WfH-vV-VAI">
-                                <rect key="frame" x="324" y="244" width="42" height="21"/>
+                                <rect key="frame" x="289" y="244" width="77" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -82,7 +82,7 @@
                     <connections>
                         <outlet property="billAmountTextField" destination="uCA-cD-xfi" id="fKI-JY-LW0"/>
                         <outlet property="tipControl" destination="id2-Sp-dvQ" id="ji4-mY-bUm"/>
-                        <outlet property="tipPercentageLabel" destination="AKG-qC-azJ" id="Boc-Tr-is4"/>
+                        <outlet property="tipPercentageLabel" destination="WfH-vV-VAI" id="hEQ-mQ-Qj2"/>
                         <outlet property="totalLabel" destination="jux-vF-TLO" id="Jn4-HI-Mdy"/>
                     </connections>
                 </viewController>
@@ -93,7 +93,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-3545" y="123"/>
+            <point key="canvasLocation" x="-3204.347826086957" y="-50.223214285714285"/>
         </scene>
     </scenes>
 </document>
